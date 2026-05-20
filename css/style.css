@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+:root{
+    /* Cores */
+    --primary-color: #0e1014;
+    --secondary-color: #06ACEE;
+    --tertiary-color: #A8DDAF;
+    --accent-color: #22C55E;
+    --light-color: #F8FAFC;
+
+    /* Tipografia */
+    --title-font: Unbounded, sans-serif;
+    --secondary-font: Poppins, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: 400; margin: auto;
+    
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    display: block;
+    margin:  left auto;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.btn-contatos{
+    color:var(--light-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    display:block; 
+    margin-left: auto;
+}
+.btn-contatos:hover{
+    color: var(--accent-color);
+    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transition: transform 0.3s ease;/*define a duração e a suavidade da animação*/
+}
+
+                            
+h1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: var(--title-font);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+h1 span{
+    color: var(--tertiary-color);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1, p, .linkinsta{
+    color: var(--light-color);
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+p{
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    margin-top: 24px;
+    width: 792px;
+    margin: 24px auto;
+}
+
+.proposta{
+    color: var(--light-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    background-color: var(--accent-color);
+    width: 340px;
+    height: 66px;
+    display: block;/*solta o elemento */
+    text-align: center;
+    line-height: 66px; /*centraliza o texto verticalmente... o padding soma à largura e altura */
+    border-radius: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.proposta:hover{
+    background-color: var(--tertiary-color);
+    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transition: transform 0.3s ease;/*define a duração e a suavidade da animação*/
+}
+.dispositivos{
+    display: block;
+    width: 792px;;
+    height: 446px;
+    margin: 0 auto;
+}
+
+h2{
+    color: var(--light-color);
+    font-family: var(--secondary-font);
+    font-size: 30px;
+    font-weight: 400;
+}
+.contatos{
+    background-color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10px;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+.btn-redessoc{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+.linkinsta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    font-size: 18PX;
+}
+
+.linkinsta:hover{
+    color: var(--tertiary-color);
+    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transition: transform 0.3s ease;
+}
+
+
+.devby{
+    color: var(--light-color);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+
+}
+.linkdevby{
+    color: var(--light-color);
+    text-decoration: none;
+}
+.linkdevby:hover{
+    color: var(--accent-color);
+    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transition: transform 0.3s ease;
+}
+ 
+
+footer{
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+@media(max-width:780px){
+    body{   
+    .logo{
+        margin: 65px 0 0 65px;
+    }
+    .btn-contatos{
+        margin: 65px 0 0 65px;
+    }
+    h1 span{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+        width: 500px;
+        margin: 24px auto;
+    }
+    .dispositivos{
+        max-width: 500px;
+        height: auto;
+        display: block;
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+}}
+@media(max-width: 558px){
+    body{.logo{
+        margin: 32px 0 0 32px;
+    }
+    .btn-contatos{
+        margin: 32px 0 0 32px;
+    }
+    h1 span{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    p{
+        font-size: 18px;
+        width: 450px;
+        margin: 24px auto;
+    }
+    .dispositivos{
+        max-width: 450px;
+        height: auto;
+        display: block;
+    }
+
+}}
