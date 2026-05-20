@@ -52,8 +52,8 @@ header{
 }
 .btn-contatos:hover{
     color: var(--accent-color);
-    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
-    transition: transform 0.3s ease;/*define a duração e a suavidade da animação*/
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
                             
@@ -98,9 +98,9 @@ p{
     background-color: var(--accent-color);
     width: 340px;
     height: 66px;
-    display: block;/*solta o elemento */
+    display: block;
     text-align: center;
-    line-height: 66px; /*centraliza o texto verticalmente... o padding soma à largura e altura */
+    line-height: 66px; 
     border-radius: 36px;
     margin-left: auto;
     margin-right: auto;
@@ -112,8 +112,8 @@ p{
 
 .proposta:hover{
     background-color: var(--tertiary-color);
-    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
-    transition: transform 0.3s ease;/*define a duração e a suavidade da animação*/
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 .dispositivos{
     display: block;
@@ -157,7 +157,7 @@ h2{
 
 .linkinsta:hover{
     color: var(--tertiary-color);
-    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transform: scale(1.1);
     transition: transform 0.3s ease;
 }
 
@@ -174,7 +174,7 @@ h2{
 }
 .linkdevby:hover{
     color: var(--accent-color);
-    transform: scale(1.1);/*aumenta o tamanho da logo quando passar o mouse por cima*/
+    transform: scale(1.1);
     transition: transform 0.3s ease;
 }
  
